@@ -8,9 +8,11 @@ https://git-scm.com/book/ru/v2/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%
 6. Перезапустить терминал
 7. Можете установить любую тему.
  oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
-8. Только установленая выше тема исчезнет после перезагрузки. Скрипт должен срабатывать каждый раз при запуске.
+  Моя тема устанавливается по команде:
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/unicorn.omp.json' | Invoke-Expression
+9. Только установленая выше тема исчезнет после перезагрузки. Скрипт должен срабатывать каждый раз при запуске.
  Команду выше записать в profile.ps1, она находится в C:\Users\{USERNAME}\Documents\PowerShell
-9. Установка fonts, чтобы некоторые символы распазнавались. 
+10. Установка fonts, чтобы некоторые символы распазнавались. 
 oh-my-posh font install meslo
 10 открыть по пути C:\Users\{USERNAME}\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
 Указать свойство profiles согласно инструкции в https://ohmyposh.dev/docs/installation/fonts
