@@ -13,8 +13,8 @@ https://git-scm.com/book/ru/v2/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%
 
 1. Выполнить команду `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 2. Выполнить команду `Install-Module posh-git -Scope AllUsers -Force`
-3. Import-Module posh-git
-4. Add-PoshGitToProfile -AllHosts
+3. Выполнить команду `Import-Module posh-git`
+4. Выполнить команду `Add-PoshGitToProfile -AllHosts`
 5. Выполнить команду `winget install JanDeDobbeleer.OhMyPosh -s winget`
 
 ### Установка темы
